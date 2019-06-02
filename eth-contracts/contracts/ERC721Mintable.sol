@@ -7,6 +7,9 @@ import '../../node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721R
 import "./Oraclize.sol";
 
 contract Ownable {
+    //  5) create an event that emits anytime ownerShip is transfered (including in the constructor)
+    event OwnershipTransfered(address indexed preOwner,address indexed newOwner);
+    
     //  TODO's
     //  1) create a private '_owner' variable of type address with a public getter function
     address private _owner;
@@ -39,8 +42,6 @@ contract Ownable {
         _owner = newOwner;
         emit OwnershipTransfered(_owner,newOwner);
     }
-    //  5) create an event that emits anytime ownerShip is transfered (including in the constructor)
-    event OwnershipTransfered(address indexed preOwner,address indexed newOwner);
 }
 
 //  TODO's: Create a Pausable contract that inherits from the Ownable contract ✔
