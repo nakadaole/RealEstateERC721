@@ -21,8 +21,8 @@ contract('SolnSquareVerifier', accounts => {
     const correctProofInput = proof["inputs"];
 
     describe('Testing SolnSquareVerifier', function () {
-        beforeEach(async function () {
-        	const verifier = await Verifier.new({from: account});
+        before(async function () {
+            const verifier = await Verifier.new({from: account});
             this.contract = await SolnSquareVerifier.new(verifier.address, {from: account});
         });
         // Test if an ERC721 token can be minted for contract and a new solution can be added for contract - SolnSquareVerifier

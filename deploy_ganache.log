@@ -1,0 +1,79 @@
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      5759
+> Block gas limit: 0x6691b7
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x0728a8bd679a94eca9196504c23446ce61a3f37aeea5739fc9842262518e3822
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x23330Ef92b2fc1d9a48eBB246F868142C5188740
+   > block number:        10
+   > block timestamp:     1559558069
+   > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
+   > balance:             99.74297744
+   > gas used:            273162
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00546324 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00546324 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'Verifier'
+   --------------------
+   > transaction hash:    0x1fb2d184213e0904f280852b410d7d190cbdaaad68d262fb23ff0072849171d8
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x788D4959f9f29ef088c6F98162165778C765Fee6
+   > block number:        12
+   > block timestamp:     1559558072
+   > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
+   > balance:             99.71715838
+   > gas used:            1248925
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0249785 ETH
+
+
+   Replacing 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0x85e361661dd569c9715c24b4f64ca6f6299d9e7928d5c31d480d067061321ec6
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x2A76f1C82b3EDD4b33a9259FdEE38dFdD1fcb3B4
+   > block number:        13
+   > block timestamp:     1559558073
+   > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
+   > balance:             99.62913066
+   > gas used:            4401386
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.08802772 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.11300622 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.11846946 ETH
