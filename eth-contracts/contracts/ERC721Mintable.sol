@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.5.2;
 
 import '../../node_modules/openzeppelin-solidity/contracts/utils/Address.sol';
 import '../../node_modules/openzeppelin-solidity/contracts/drafts/Counters.sol';
