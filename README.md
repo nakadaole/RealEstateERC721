@@ -28,7 +28,9 @@ cd /eth-contracts
 truffle compile
 ```
 
-This will create the smart contract artifacts in folder ```/eth-contracts/build/contracts```.
+#### ABI's link:
+
+This will create the smart contract artifacts (ABI files) in folder ```/eth-contracts/build/contracts```.
 
 #### Migrate smart contracts to the locally running blockchain, ganache:
 Change to the folder ```eth-contracts```
