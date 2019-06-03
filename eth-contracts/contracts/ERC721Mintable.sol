@@ -271,7 +271,7 @@ contract ERC721 is Pausable, ERC165 {
         _ownedTokensCount[to].increment();
 
         // TODO emit Transfer event
-        emit Transfer(address[0],to,tokenId);
+        emit Transfer(address(0),to,tokenId);
     }
 
     // @dev Internal function to transfer ownership of a given token ID to another address.
